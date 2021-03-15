@@ -1,0 +1,52 @@
+.navbar-default{
+
+    display: flex;
+    width: 100%;
+    background-color: rgb(128,128,128, 0.1);
+    padding: 10px;
+    padding-left: 30px;
+
+}
+
+.navbar-default > img{
+
+    width: 50px;
+    height: 50px;
+    box-shadow: 0px 0px 60px rgb(0,0,0, 0.05);
+    border-radius: 50%;
+
+}
+
+.page-name, .divspan{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.page-name{
+
+    font-size: 30px;
+
+}
+
+.page-name > span{
+
+    cursor: default;
+
+}
+
+.divspan{
+
+    margin-left: auto;
+
+}
+
+.divspan > span{
+
+    cursor: pointer;
+
+}

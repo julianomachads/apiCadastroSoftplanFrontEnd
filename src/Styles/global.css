@@ -1,0 +1,66 @@
+html{
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+
+    --white: #fff;
+    --gray-line: #DcDDE0;
+    --text-highlight: #B3B9FF;
+    --title: #2E384D;
+    --red: #E83F5B;
+    --green: #4CD62B;
+    --blue: #5965E0;
+    --blue-dark: #4953B8;
+    --blue-twitter: #2AA9E0;
+
+    --gray-opacity: rgb(128,128,128, 0.1);
+    --background: #191A1C;
+    --text: #ABADAE;
+    --button-text: #d1d1d1;
+
+}
+
+body{
+
+    background: var(--background);
+    color: var(--text);
+    width: 100%;
+    height: 100%;
+
+}
+
+#root{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+body, input, button, table, span{
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto Slab','Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+button{
+
+    cursor: pointer;
+
+}

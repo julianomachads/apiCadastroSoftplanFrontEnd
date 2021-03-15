@@ -1,0 +1,18 @@
+.table-list{
+
+    width: auto;
+    height: 50rem;
+
+}
+
+.table-list table{
+
+    width: 70rem;
+
+}
+
+td{
+
+    color: var(--text);
+
+}
